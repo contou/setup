@@ -207,11 +207,29 @@ source ~/.bashrc_custom
 
 #ace configure
 export ACE_ROOT=/home/cong/app/ACE_wrappers
+export TAO_ROOT=$ACE_ROOT/TAO
 export LD_LIBRARY_PATH=$ACE_ROOT/lib:$LD_LIBRARY_PATH
 
 # programming directory
-export RUBY=/home/cong/programming/ruby
+export RUBY=/home/cong/programming/ruby/
 export C=/home/cong/programming/c
 export NODE=/home/cong/programming/node
 
 alias agent='sh /home/cong/app/snova-0.22.0/bin/start.sh'
+
+#mongodb configure
+export MONGO_ROOT=/home/cong/app/mongodb-src-r2.4.5
+alias mongod='sudo /home/cong/app/mongodb*/mongod'
+alias mongo='/home/cong/app/mongodb*/mongo'
+alias mongobridge='/home/cong/app/mongodb*/mongobridge'
+alias mongodump='/home/cong/app/mongodb*/mongodump'
+alias mongoexport='/home/cong/app/mongodb*/mongoexport'
+alias mongofiles='/home/cong/app/mongodb*/mongofiles'
+alias mongoimport='/home/cong/app/mongodb*/mongoimport'
+alias mongooplog='/home/cong/app/mongodb*/mongooplog'
+alias mongoperf='/home/cong/app/mongodb*/mongoperf'
+alias mongorestore='/home/cong/app/mongodb*/mongorestore'
+alias mongos='/home/cong/app/mongodb*/mongos'
+alias mongostat='/home/cong/app/mongodb*/mongostat'
+alias mongotop='/home/cong/app/mongodb*/mongotop'
+
