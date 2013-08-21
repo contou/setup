@@ -214,6 +214,8 @@ export LD_LIBRARY_PATH=$ACE_ROOT/lib:$LD_LIBRARY_PATH
 export RUBY=/home/cong/programming/ruby/
 export C=/home/cong/programming/c
 export NODE=/home/cong/programming/node
+export JAVA=/home/cong/programming/java
+export PYTHON=/home/cong/programming/python
 
 alias agent='sh /home/cong/app/snova-0.22.0/bin/start.sh'
 
