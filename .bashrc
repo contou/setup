@@ -216,6 +216,7 @@ export C=/home/cong/programming/c
 export NODE=/home/cong/programming/node
 export JAVA=/home/cong/programming/java
 export PYTHON=/home/cong/programming/python
+export SCALA=/home/cong/programming/scala
 
 alias agent='sh /home/cong/app/snova-0.22.0/bin/start.sh'
 
@@ -234,4 +235,6 @@ alias mongorestore='/home/cong/app/mongodb*/mongorestore'
 alias mongos='/home/cong/app/mongodb*/mongos'
 alias mongostat='/home/cong/app/mongodb*/mongostat'
 alias mongotop='/home/cong/app/mongodb*/mongotop'
+
+export PATH=/home/cong/app/sbt/bin:$PATH
 
