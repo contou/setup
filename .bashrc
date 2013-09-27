@@ -209,6 +209,7 @@ source ~/.bashrc_custom
 export ACE_ROOT=/home/cong/app/ACE_wrappers
 export TAO_ROOT=$ACE_ROOT/TAO
 export LD_LIBRARY_PATH=$ACE_ROOT/lib:$LD_LIBRARY_PATH
+export ANDROID_ROOT=/home/cong/app/Android-source
 
 # programming directory
 export RUBY=/home/cong/programming/ruby/
@@ -217,6 +218,7 @@ export NODE=/home/cong/programming/node
 export JAVA=/home/cong/programming/java
 export PYTHON=/home/cong/programming/python
 export SCALA=/home/cong/programming/scala
+export SML=/home/cong/programming/sml
 
 alias agent='sh /home/cong/app/snova-0.22.0/bin/start.sh'
 
@@ -238,3 +240,5 @@ alias mongotop='/home/cong/app/mongodb*/mongotop'
 
 export PATH=/home/cong/app/sbt/bin:$PATH
 
+alias matlab='/home/cong/app/MATLAB/bin/matlab'
+alias sml='/home/cong/app/sml/bin/sml'
