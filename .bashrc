@@ -210,6 +210,8 @@ export ACE_ROOT=/home/cong/app/ACE_wrappers
 export TAO_ROOT=$ACE_ROOT/TAO
 export LD_LIBRARY_PATH=$ACE_ROOT/lib:$LD_LIBRARY_PATH
 export ANDROID_ROOT=/home/cong/app/Android-source
+export AFrameworks=/home/cong/app/Android-source/frameworks/base/core/java/android
+export AJLang=/home/cong/app/Android-source/libcore/luni/src/main/java/java
 
 # programming directory
 export RUBY=/home/cong/programming/ruby/
@@ -238,7 +240,7 @@ alias mongos='/home/cong/app/mongodb*/mongos'
 alias mongostat='/home/cong/app/mongodb*/mongostat'
 alias mongotop='/home/cong/app/mongodb*/mongotop'
 
-export PATH=/home/cong/app/sbt/bin:$PATH
+export PATH=/home/cong/app/android-studio/bin:/home/cong/app/sbt/bin:$PATH
 
 alias matlab='/home/cong/app/MATLAB/bin/matlab'
 alias sml='/home/cong/app/sml/bin/sml'
