@@ -222,25 +222,15 @@ export PYTHON=/home/cong/programming/python
 export SCALA=/home/cong/programming/scala
 export SML=/home/cong/programming/sml
 
-alias agent='sh /home/cong/app/snova-0.22.0/bin/start.sh'
-
 #mongodb configure
 export MONGO_ROOT=/home/cong/app/mongodb-src-r2.4.5
-alias mongod='sudo /home/cong/app/mongodb*/mongod'
-alias mongo='/home/cong/app/mongodb*/mongo'
-alias mongobridge='/home/cong/app/mongodb*/mongobridge'
-alias mongodump='/home/cong/app/mongodb*/mongodump'
-alias mongoexport='/home/cong/app/mongodb*/mongoexport'
-alias mongofiles='/home/cong/app/mongodb*/mongofiles'
-alias mongoimport='/home/cong/app/mongodb*/mongoimport'
-alias mongooplog='/home/cong/app/mongodb*/mongooplog'
-alias mongoperf='/home/cong/app/mongodb*/mongoperf'
-alias mongorestore='/home/cong/app/mongodb*/mongorestore'
-alias mongos='/home/cong/app/mongodb*/mongos'
-alias mongostat='/home/cong/app/mongodb*/mongostat'
-alias mongotop='/home/cong/app/mongodb*/mongotop'
 
-export PATH=/home/cong/app/android-studio/bin:/home/cong/app/sbt/bin:$PATH
+#android studio
+export PATH=~/app/android-studio/bin:$PATH
+#eclipse
+export PATH=~/app/adt-bundle-linux-x86_64-20140321/eclipse:$PATH
+#android source
+export PATH=~/bin:$PATH
+#ruby gems
+export PATH=~/.gem/ruby/1.9.1/bin:$PATH
 
-alias matlab='/home/cong/app/MATLAB/bin/matlab'
-alias sml='/home/cong/app/sml/bin/sml'
